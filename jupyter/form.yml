@@ -1,0 +1,13 @@
+cluster: "farm"
+form:
+  - modules
+  - extra_jupyter_args
+  - bc_account
+  - bc_queue
+  - bc_num_hours
+  - bc_num_slots
+  - bc_email_on_started
+
+attributes:
+  modules: "slurm conda/base/latest"
+  extra_jupyter_args: ""
